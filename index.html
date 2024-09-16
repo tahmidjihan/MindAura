@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>MindAura</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header data-theme="dark" class="py-20">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start text-accent">
+          <a class="btn btn-ghost text-xl"
+            ><i class="fas fa-leaf"></i> MindAura</a
+          >
+        </div>
+
+        <div class="navbar-end">
+          <div class="dropdown dropdown-left">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h7"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a href="#">Homepage</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#newsletter">Newsletter</a></li>
+              <li><a href="#pricing">pricing</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hero-header text-white flex flex-col justify-center align-middle"
+      >
+        <div class="mhs flex gap-10 mx-auto align-middle">
+          <div class="lhs max-w-xl flex flex-col justify-center gap-6">
+            <h1 class="font-extrabold text-5xl mb-2">
+              Welcome to <span class="text-accent">MindAura</span>
+            </h1>
+            <p>
+              At MindAura, we believe in the power of mindfulness to bring
+              balance and peace into your life. Our guided meditations and
+              calming practices are designed to help you reconnect with your
+              inner self, reduce stress, and achieve mental clarity. Whether
+              you're new to meditation or a seasoned practitioner, MindAura
+              offers a space to cultivate mindfulness, improve well-being, and
+              find tranquility in the present moment.
+            </p>
+            <div class="flex gap-6 mt-3">
+              <button class="btn btn-accent">Get started</button
+              ><button class="btn border-accent bg-[transparent] text-white">
+                Free trial
+              </button>
+            </div>
+          </div>
+          <div class="rhs">
+            <img src="img/hero.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="py-20 min-h-[70vh]">
+        <div
+          class="mhs flex gap-20 mx-auto align-middle justify-center mx-auto"
+        >
+          <div class="lhs max-w-xl flex flex-col justify-center gap-6 mx-auto">
+            <h1 class="font-extrabold text-5xl mb-2">
+              About <span class="text-accent">MindAura</span>
+            </h1>
+            <p>
+              Welcome to Mindaura, where our mission is to help you find balance
+              and serenity through the power of meditation. Our team is
+              dedicated to providing you with a simple, effective, and enjoyable
+              meditation experience. We believe that mindfulness can transform
+              lives, and we're here to guide you on your journey to inner peace.
+              Explore our app to discover a range of guided meditations and
+              mindfulness tools designed to fit seamlessly into your daily
+              routine. Join us and experience the calming benefits of Mindaura
+              today.
+            </p>
+            <div class="flex gap-6 mt-3">
+              <button class="btn btn-accent">Read More</button>
+            </div>
+          </div>
+          <div class="rhs flex justify-center align-middle mx-auto">
+            <div class="flex justify-center gap-6 my-6 flex-col">
+              <a href="#" class="block">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png"
+                  alt="Get it on Google Play"
+                  class="w-40 md:w-48"
+                />
+              </a>
+              <a href="#" class="block">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png"
+                  alt="Download on the App Store"
+                  class="w-40 md:w-48"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="newsletter"
+        class="py-20 bg-green-600 text-white mx-auto text-center"
+      >
+        <h1 class="font-extrabold text-4xl mb-2">Join Our Newsletter</h1>
+        <p>
+          "Stay updated with the latest mindfulness tips, guided meditations,
+          and exclusive offers by subscribing to the Mindaura newsletter."
+        </p>
+        <div class="input-div mx-auto mt-3">
+          <input
+            type="email"
+            placeholder="type your email"
+            class="input input-bordered bg-white placeholder:black text-black w-xs md:w-72"
+            required
+          />
+          <button class="btn">submit</button>
+        </div>
+      </section>
+      <section id="pricing"></section>
+    </main>
+  </body>
+</html>

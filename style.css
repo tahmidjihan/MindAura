@@ -1,0 +1,13 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(./img/green-divice-bg.jpeg);
+  min-height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #00000063;
+}
